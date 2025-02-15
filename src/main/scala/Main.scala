@@ -9,7 +9,6 @@ import scala.concurrent.{Await, Future}
 
 @main def main(): Unit =
 
-  //TODO: Initialize example graph data so data can be returned
   //TODO: Use configuration settings for protocol, hostname, port, username, password
   //TODO: Read configuration from arguments, environment variables or configuration files
 
