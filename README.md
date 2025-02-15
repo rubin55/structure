@@ -5,7 +5,12 @@ Scala, using `neotypes` to talk to a `neo4j` instance.
 
 [1]: /raaftech/structure
 
-### Usage
+### Load example database
 
-This is a normal sbt project. You can compile code with `sbt compile`, run it 
-with `sbt run`, and `sbt console` will start a Scala 3 REPL.
+Assuming you have a `neo4j` database running on `localhost:7687`:
+
+```shell
+export NEO4J_USERNAME=neo4j
+export NEO4J_PASSWORD=wrong
+cypher-shell < movies.cql
+```
